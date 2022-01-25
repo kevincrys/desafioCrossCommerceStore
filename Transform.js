@@ -21,7 +21,9 @@ if(dados[i]>=numeros[i-1])
 else {
 //se não, percorre os números já inseridos em numeros e para cada um em ordem decrescente
 //é checado para ver se o número atual é menor que ele, se for,
-// o número checado avança  uma posição no array e o numero atual toma a posição dele
+// o número checado avança  uma posição no array
+// quando encontra um número que seja menor que ele
+// o numero atual toma a posição após ele
 
       for(let j=i;j>-1;j--)
       {
